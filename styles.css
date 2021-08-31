@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #b540a3;
+  --secondary-color: white;
+  --inner-color: black;
+  --message-background-color: #f3def0;
+  --hover-color: #9c378c;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: var(--primary-color);
+}
+
+h1 {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+main {
+  width: 30%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+label,
+input {
+  width: 100%;
+}
+
+button {
+  width: 40%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--hover-color);
+  transition: 0.3s;
+}
+
+label,
+input,
+button {
+  display: block;
+  margin: auto;
+  font-size: 1.4rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  border-style: solid;
+  border-color: var(--primary-color);
+  color: var(--inner-color);
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+::placeholder {
+  color: var(--inner-color);
+}
+
+.message-to-user {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+  background-color: var(--message-background-color);
+  border-radius: 0.5rem;
+}
+.make-footer-stay-at-bottom {
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.privacy-notice {
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--inner-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-top: 8rem;
+}
+
+.footer-header {
+  font-size: larger;
+  margin: 0.5rem;
+}
+
+.footer-links {
+  color: var(--secondary-color);
+  margin: 0.5rem;
+  display: inline;
+  list-style: none;
+}
+
+.footer-links .link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
